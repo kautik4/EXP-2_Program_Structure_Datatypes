@@ -1,11 +1,47 @@
-<h1>Aim</h1>
-<p>To study and implement C++ Program Structure (Data Types)</p>
-<hr>
-<h1>Software Required</h1>
-<p>VS code</p>
-<hr>
-<h1>Theory</h1>
-<p>C++ program structure is built around various data types, which define the kind of data a variable can hold. These data types include fundamental types like `int`, `float`, `char`, and `bool`, along with user-defined types such as `structs`, `enums`, and `classes`. Understanding and using these data types efficiently is essential for writing effective and optimized C++ programs.</p>
-<hr>
-<h1>Conclusion</h1>
-<p>Through our exploration of C++ data types, we demonstrated how different types dictate the storage and behavior of data in a program. This experiment highlighted the importance of selecting appropriate data types for efficient memory use and program functionality.</p>
+# EXP-2: Program Structure and Data Types in C++
+
+This repository contains examples and explanations related to program structure and various data types in C++. Understanding the fundamental data types and program structure is essential for writing clear and efficient C++ programs.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Topics Covered](#topics-covered)
+
+## Introduction
+
+In C++, the program structure defines the overall layout of a C++ program, including how the code is organized. Additionally, C++ offers several built-in data types that are used to store different types of values in variables. This repository provides code examples demonstrating the usage of these data types and how to structure a basic C++ program.
+
+## Topics Covered
+
+### 1. **Basic Program Structure**
+
+A typical C++ program consists of the following components:
+   - **Headers**: Includes necessary libraries like `<iostream>`.
+   - **Main Function**: The entry point of every C++ program.
+   - **Variable Declaration**: Defining variables and constants.
+   - **Statements**: Instructions that tell the program what to do.
+   - **Return Statement**: The `main()` function returns an integer, typically 0 for success.
+
+### 2. **Data Types**
+
+#### a. **Primitive Data Types**
+   - **Integer (`int`)**: Stores whole numbers.
+   - **Floating-point (`float` and `double`)**: Stores decimal numbers.
+   - **Character (`char`)**: Stores a single character.
+   - **Boolean (`bool`)**: Stores true or false values.
+   
+#### b. **Derived Data Types**
+   - **Arrays**: A collection of elements of the same type stored in contiguous memory locations.
+   - **Pointers**: Variables that store the memory address of another variable.
+
+#### c. **User-defined Data Types**
+   - **Structures (`struct`)**: Custom data types that group different variables under one name.
+   - **Enumerations (`enum`)**: Defines a set of named integer constants.
+
+### 3. **Variable Declaration and Initialization**
+
+   In C++, variables must be declared before use. They can also be initialized during declaration:
+   ```cpp
+   int a = 5; // integer variable
+   float pi = 3.14; // floating-point variable
+   char grade = 'A'; // character variable
